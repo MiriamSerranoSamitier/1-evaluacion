@@ -1,0 +1,1 @@
+print "este es mi primer programa, de locos"
