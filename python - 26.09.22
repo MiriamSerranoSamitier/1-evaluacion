@@ -1,0 +1,5 @@
+print("Este es mi primer programa, yuju")
+a="miriam"
+b="serrano"
+print("hola"+a+b)
+print("Cómo te llamas?")
