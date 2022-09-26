@@ -3,3 +3,9 @@ a="miriam"
 b="serrano"
 print("hola"+a+b)
 print("Cómo te llamas?")
+
+# Programa de iniciaciacion.
+# Pregunta y responde.
+print("Cómo te llamas?")
+nombre=input()
+print("hola "+nombre+" encantado de conocerte")
