@@ -1,0 +1,12 @@
+# pide dos numeos y calcula la media
+def calcula_media():
+    #inicializo las variables
+    n1=0
+    n2=0
+    n1=int(input("numero 1: "))
+    n2=int(input("numero 2: "))
+    suma=n1+n2
+    media=suma/2
+    print(media)
+    
+calcula_media()
