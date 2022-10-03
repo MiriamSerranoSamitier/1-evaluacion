@@ -1,0 +1,27 @@
+#BUCLES: Conocemos el numero de variables
+
+def bucle_1():
+    suma=0 #Es una variable acumuladora
+    for cont in range (1,11):
+        num=int(input("dime un numero :"))
+        suma=num+suma
+    print(suma)
+    
+bucle_1()
+
+
+
+#BUCLES: tabla de multiplicar
+
+def tabla_multiplicar():
+    tabla=input("Dime la tabla :")
+    suma=0 #Es una variable acumuladora
+    for cont in range (1,11):
+       print(tabla + " x " + cont + " = ")
+        suma=num+suma
+    print(suma)
+    
+bucle_1()
+
+
+#SIN TERMINAR 
