@@ -1,0 +1,36 @@
+MAIN.PY
+
+# Leemos 20 numeros enteros
+# sumamos los paras por un lado
+# sumamos los imprares por otro
+def suma_par_impar():
+    suma_par=0
+    suma_impar=0
+    for cont in range(1,21):
+        num=int(input("Dame un numero: "))
+        if(num%2==0):
+            print("ES PAR")#Rama verdad
+        else:
+            print("ES IMPAR")#Rama falso
+            
+            
+suma_par_impar()
+
+
+
+SHELL
+
+Dame un numero: 4
+ES PAR
+Dame un numero: 7
+ES IMPAR
+Dame un numero: 4
+ES PAR
+Dame un numero: 8
+ES PAR
+Dame un numero: 9
+ES IMPAR
+Dame un numero: 3
+ES IMPAR
+Dame un numero: 1
+ES IMPAR
