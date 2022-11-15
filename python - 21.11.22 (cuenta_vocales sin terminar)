@@ -1,0 +1,17 @@
+def esvocal():
+    respuesta=False
+
+    if(letra=='a' or letra=='e' or letra=='i' or letra=='o' or letra=='u'):
+        respuesta=True
+    return(respuesta)
+
+def descomponedor():
+    cuentavocales=0
+    palabra=input("dime una palabra: ")
+    for cont in range(0,len(palabra)):
+        print(palabra[cont])
+    print("tiene "+str(cont+1)+" letras")
+    if(esvoval(palabra[cont])==True):
+        cuentavocales=cuentavocales+1
+    print("tiene "++" vocales")
+descomponedor()
