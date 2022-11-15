@@ -1,0 +1,21 @@
+MAIN
+
+def prueba_palabras():
+    a=True
+    while a==True:
+        password=input("escribe tu contraseña: ")
+        if(password.islower() or password.isupper()):
+            print("No cumple con el criterio de tener mayus y minus")
+            a=True
+        else:
+            print("Si cumple con el criterio de tener mayus y minus, GRACIAS :)")
+            a=False
+prueba_palabras()
+
+
+SHELL
+escribe tu contraseña: 765WU6ETHRY
+No cumple con el criterio de tener mayus y minus
+escribe tu contraseña: GHFfggk
+Si cumple con el criterio de tener mayus y minus, GRACIAS :)
+> 
