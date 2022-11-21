@@ -1,0 +1,21 @@
+#Defina una función que reciba 2 números enteros y una letra que representa una de las siguientes operaciones:
+#S de suma,
+#R de resta,
+#M multiplicacioón y
+#D división
+#La función muestra por pantalla la operación propuesta y su resultado.
+def calculador():
+    c=input("Que operacion quiere hacer?: ")
+    a=int(input("Introduzca su primer digito: "))
+    b=int(input("Introduzca su segundo digito: "))
+    
+    if (c=='S'):
+        print(a+b)
+    if (c=='R'):
+        print(a-b)
+    if (c=='M'):
+        print(a*b)
+    if (c=='D'):
+        print(a/b)
+    
+calculador()
