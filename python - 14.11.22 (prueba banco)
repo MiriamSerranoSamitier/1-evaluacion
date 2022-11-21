@@ -1,0 +1,42 @@
+def main():
+    a=True
+    saldo=0
+    while(a==True):
+        menu()
+        if(num==1):
+            saldo=ingresar(saldo)
+            a=True
+        if(num==2):
+            saldo=sacar(saldo)
+            a=True
+        if(num==3):
+            salir()
+            a=False
+            
+def menu():
+    
+        print("*************************")
+        print("          MENU           ")
+        print("*************************")
+        print("1.ingresar")
+        print("2.sacar")
+        print("3.salir")
+        num=int(input("Que quieres hacer?: ")
+        
+
+def ingresar():
+    dinero=int(input("cuanto dinero quieres ingresar"))
+    saldo=saldo+dinero
+    print("tienes: "+str(saldo))
+    return(saldo)
+    
+def sacar():
+    dinero=int(input("cuanto dinero quieres sacar"))
+    saldo=saldo-dinero
+    print("tienes: "+str(saldo))
+    return(saldo)
+    
+def salir():
+    print("deu")
+    
+main()
