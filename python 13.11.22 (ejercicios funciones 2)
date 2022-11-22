@@ -1,0 +1,7 @@
+#Escriba una función que reciba una cantidad en dólares y devuelva su cambio en euros.
+def cambio():
+    euros=int(input("Ingrese su cantidad en euros: "))
+    dolares=(euros*1.03)
+    print ("Su cantidad en dolares es: " +str(dolares))
+    
+cambio()
