@@ -1,0 +1,10 @@
+# Escriba una función llamada “multiplicación” que reciba como argumento cuatro números reales distintos de cero y que devuelva su producto.
+def multiplicador():
+    a=int(input("Escriba su primer dígito: "))
+    b=int(input("Escriba su segundo dígito: "))
+    c=int(input("Escriba su terecr dígito: "))
+    d=int(input("Escriba su cuarto dígito: "))
+    resultado=a*b*c*d
+    print(resultado)
+    
+multiplicador()
