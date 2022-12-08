@@ -1,0 +1,18 @@
+#Escriba una función que reciba un número entero del 1 al 7 y escriba en pantalla el correspondiente día de la semana.
+def semana():
+    a=int(input("que dia es hoy?: "))
+    if(a==1):
+        print("hoy es lunes :(")
+    if(a==2):
+        print("hoy es martes :/")
+    if(a==3):
+        print("hoy es miescoles")
+    if(a==4):
+        print("hoy es jueves")
+    if(a==5):
+        print("hoy es viernesss :)")
+    if(a==6):
+        print("hoy se sale")
+    if(a==7):
+        print("hoy es domingo:(")
+semana()
