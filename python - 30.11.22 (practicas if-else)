@@ -1,0 +1,7 @@
+def altura():
+    altura=int(input("¿Cuanto mides?: "))
+    if altura>=180:
+        print("que alto jope")
+    else:
+        print("pringado")
+altura()
