@@ -1,0 +1,9 @@
+#Escriba una función que reciba un numero cualquiera y que devuelva como resultado la suma de sus dígitos; por ejemplo, si el número fuera 23 la suma seria 5.
+def suma_de_digitos():
+    n=int(input("Ingresa tu numero: "))
+    suma=0
+    while n>0:
+        suma=suma + (n%10)
+        n=n//10
+    print("la suma de los digitos es: " + str(suma))
+suma_de_digitos()
